@@ -1,5 +1,10 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/content.css);
+@import url(../blocks/container.css);
+@import url(../blocks/footer.css);
 
 h1 {
   font-family: Proto Grotesk Light, Arial, Helvetica, sans-serif;
@@ -8,3 +13,11 @@ h1 {
 h2 {
   font-family: PTRootUI, Arial, Helvetica, sans-serif;
 }
+
+
+
+
+
+
+
+
