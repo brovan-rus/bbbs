@@ -1,0 +1,10 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+h1 {
+  font-family: Proto Grotesk Light, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: PTRootUI, Arial, Helvetica, sans-serif;
+}
