@@ -1,0 +1,114 @@
+.card {
+  border-radius: 30px;
+  padding: 15px;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+@media screen and (min-width:1080px) {
+  .card {
+    padding: 17px 15px;
+  }
+}
+
+.card__name {
+  color: #464646;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  margin: 0;
+  padding: 2px 7px;
+  align-items: center;
+  width: 130px;
+  font-family: PT Root UI;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card__caption {
+  text-align: center;
+  margin: 0;
+  font-family: Proto Grotesk Web Light;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 23px;
+}
+
+@media screen and (min-width:1080px) {
+  .card__caption {
+    font-size: 23px;
+    line-height: 30px;
+  }
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 15px;
+  min-height: 142px;
+  object-fit: cover;
+}
+
+.card__author {
+  margin: 0;
+  font-family: PT Root UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #464646;
+  margin-bottom: 39px;
+}
+
+@media screen and (min-width:1080px) {
+  .card__author {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 62px;
+  }
+}
+
+.card__link {
+  color: #224CFF;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+}
+
+@media screen and (min-width:1080px) {
+  .card__link {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+
+.card__text {
+  margin: 10px 0 0;
+  font-family: PT Root UI;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+@media screen and (min-width:1080px) {
+  .card__text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+.card__scroll {
+  padding-top: 15px;
+  padding-right: 20px;
+  margin-right: -20px;
+  overflow: scroll;
+  max-height: 192px;
+}

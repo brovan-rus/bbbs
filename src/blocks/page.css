@@ -1,7 +1,8 @@
 .page {
   background-color: #F3F2F2;
-  background-color: #F3F2F2;
   min-height: 1vh;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
+  width: 100%;
 }
