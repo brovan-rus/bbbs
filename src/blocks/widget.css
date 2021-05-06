@@ -21,8 +21,15 @@
 
 @media screen and (max-width: 640px){
   .widget {
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .widget {
     margin-bottom: 30px;
     min-height: 290px;
+    width: 290px;
   }
   .widget:last-child {
     margin-bottom: 0;
