@@ -1,11 +1,6 @@
 .container {
   width: calc(100% - 30px);
-  /*padding: 0 15px;*/
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: min-content;
-  row-gap: 30px;
   max-width: 1770px;
 
 }
