@@ -8,9 +8,12 @@
 
 @import url(../blocks/bg.css);
 @import url(../blocks/card.css);
+h1 {
+  font-family: Proto Grotesk Light, Arial, Helvetica, sans-serif;
+}
 
-/*Стили из ветки Константина*/
-@import url(../blocks/story.css);
-@import url(../blocks/articles.css);
-@import url(../blocks/poject-description.css);
-@import url(../blocks/widget.css);
+h2 {
+  font-family: PTRootUI, Arial, Helvetica, sans-serif;
+}
+
+
