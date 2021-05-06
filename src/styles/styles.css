@@ -8,6 +8,8 @@
 
 @import url(../blocks/bg.css);
 @import url(../blocks/card.css);
+@import url(../blocks/buttons.css);
+@import url(../blocks/btn.css);
 
 /*Стили из ветки Константина*/
 @import url(../blocks/story.css);
