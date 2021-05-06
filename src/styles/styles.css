@@ -5,14 +5,28 @@
 @import url(../blocks/content.css);
 @import url(../blocks/container.css);
 @import url(../blocks/footer.css);
-
-@import url(../blocks/bg.css);
 @import url(../blocks/card.css);
 @import url(../blocks/buttons.css);
 @import url(../blocks/btn.css);
+@import url(../blocks/calendar.css);
+@import url(../blocks/event-card.css);
+
+
+
 
 /*Стили из ветки Константина*/
+
 @import url(../blocks/story.css);
 @import url(../blocks/articles.css);
 @import url(../blocks/poject-description.css);
 @import url(../blocks/widget.css);
+
+
+
+
+/* должен быть внизу */
+@import url(../blocks/bg.css);
+
+
+
+

@@ -1,0 +1,48 @@
+.calendar {
+  text-align: center;
+}
+
+.calendar__intro {
+  text-align: center;
+}
+
+.calendar__header {
+  font-family: Proto Grotesk Web Light;
+  font-weight: 300;
+  font-size: 37px;
+  line-height: 39px;
+  margin: 0 0 20px;
+}
+
+@media screen and (min-width: 1080px) {
+  .calendar__header {
+    font-size: 74px;
+    line-height: 80px;
+    margin: 0 0 40px;
+  }
+}
+
+.calendar__buttons {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1080px) {
+  .calendar__buttons {
+    margin-bottom: 80px;
+  }
+}
+
+.calendar__cards {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+@media screen and (min-width: 1080px) {
+  .calendar__cards {
+    justify-content:start;
+    /* gap: 30px; */
+  }
+}

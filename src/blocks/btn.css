@@ -1,24 +1,35 @@
 .btn {
+  background-color: transparent;
   font-family: Proto Grotesk Web Light;
   font-weight: 300;
-  font-size: 15px;
-  line-height: 19px;
+  font-size: 12px;
+  line-height: 17px;
   letter-spacing: 0.2px;
   color: #000000;
   border: 1px solid #000000;
   box-sizing: border-box;
   min-height: 48px;
+  min-width: 48px;
   border-radius: 100px;
-  padding: 13px 20px;
+  padding: 11px 15px;
   white-space: nowrap;
 }
 
+@media screen and (min-width: 1080px) {
+  .btn {
+    padding: 13px 20px;
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+
 .btn:hover {
-  background: #E0E0E0;
+  background-color: #E0E0E0;
+  cursor: pointer;
 }
 
 .btn_active {
-  background: #000000;
+  background-color: #000000;
   color: #F3F2F2;
 }
 
@@ -28,14 +39,30 @@
 }
 
 .btn_blue:hover {
-  background: #C8D1FF;
+  background-color: #C8D1FF;
+  cursor: pointer;
 }
 
 .btn_blue.btn_active {
   color: #F3F2F2;
-  background: #224CFF;
+  background-color: #224CFF;
 }
 
 .btn_active:hover {
-  background: #2E2468;
+  background-color: #2E2468;
+  cursor: pointer;
+}
+
+.btn_elipses {
+  background: url(../images/Ellipse.svg);
+  width: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn_disabled, .btn_disabled:hover {
+  color: #A7A6A6;
+  border: 1px solid #A7A6A6;
+  background: inherit;
+  cursor:auto;
 }
