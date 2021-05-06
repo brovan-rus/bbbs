@@ -1,0 +1,36 @@
+.widget {
+  height: calc(96px + 53 * 100vw / 240);
+  width: calc((100% - 30px) / 2);
+  max-height: 520px;
+  min-height: 333px;
+  min-width: 290px;
+}
+
+.widget__card {
+  position: relative;
+  border-radius: 30px;
+
+}
+
+
+@media screen and (max-width: 1439px) and (min-width: 641px) {
+  .widget {
+    height: calc(47 * 100vw / 104 - 80.8px);
+  }
+}
+
+@media screen and (max-width: 640px){
+  .widget {
+    margin-bottom: 30px;
+    min-height: 290px;
+  }
+  .widget:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/*@media screen and (max-width: 1024px) {*/
+/*  .widget {*/
+/*    width: 290px;*/
+/*  }*/
+/*}*/
