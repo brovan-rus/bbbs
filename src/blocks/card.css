@@ -25,7 +25,6 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
-  box-sizing: content-box;
 }
 
 .card__title {
