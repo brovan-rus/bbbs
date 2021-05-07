@@ -1,0 +1,42 @@
+.story {
+  background: url("../images/story.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.story::after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(70,70,70,.8);
+  mix-blend-mode: multiply;
+  border-radius: 30px;
+}
+
+.story__title {
+  margin: auto;
+  font-family: Proto Grotesk Web Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1440px){
+  .story__title {
+    display: none;
+  }
+  .story::after {
+    display: none;
+  }
+
+}

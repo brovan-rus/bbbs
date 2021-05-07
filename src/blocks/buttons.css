@@ -1,0 +1,63 @@
+.buttons {
+  margin-bottom: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.buttons::after {
+  content: "";
+  z-index: 1;
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient( 90deg, rgb(243 242 242 / 47%) 0%, rgb(243 242 242) 100%);
+}
+
+.buttons::before {
+  content: "";
+  z-index: 1;
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient( 270deg, rgb(243 242 242 / 0%) 0%, rgb(243 242 242) 100%);
+}
+@media screen and (min-width: 920px) {
+  .buttons {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .buttons {
+    margin-bottom: 80px;
+  }
+}
+
+.buttons__line {
+  display: flex;
+  justify-content: left;
+  overflow: scroll;
+  scrollbar-width: none;
+  margin-bottom: -16px;
+  padding: 0 15px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons__line {
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

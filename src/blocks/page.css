@@ -1,10 +1,45 @@
 .page {
-  background: #3b3b3b;
+
   min-height: 1vh;
+
+  margin: 0;
+  padding: 0;
+  background-color: #F3F2F2;
+  display: flex;
+
   flex-direction: column;
-  align-items: stretch;
+}
+
+.page__intro {
+  text-align: center;
+}
+
+.page__header {
+  font-family: Proto Grotesk Web Light;
+  font-weight: 300;
+  font-size: 37px;
+  line-height: 39px;
+  margin: 0 0 20px;
+}
+
+.page__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+
+.page__cards_split {
+ gap:0;
+}
+.page__card {
+  gap:30px;
+}
+
+.page__card_big {
   width: 100%;
 }
+
 
 .select-city-popup {
   max-width: 320px;
@@ -67,4 +102,49 @@
 
 .select-city-popup__item:nth-of-type(3) {
   padding-top: 15px;
+
+.page__card_small {
+  width: 100%;
+}
+
+.page__card_medium {
+  width: 100%;
+}
+
+@media screen and (min-width: 790px) {
+  .page__header {
+    font-size: 74px;
+    line-height: 80px;
+    margin: 0 0 40px;
+  }
+  .page__card_big {
+    width: calc(100% / 2);
+  }
+  .page__card_small {
+    width: calc(100% / 2 - 30px);
+  }
+  .page__card_medium {
+    width: calc(100% / 2);
+  }
+  .page__cards {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  .page__header {
+    font-size: 74px;
+    line-height: 80px;
+    margin: 0 0 40px;
+  }
+  .page__card_big {
+    width: calc(100% / 3 * 2);
+  }
+  .page__card_small {
+    width: calc(100% / 3 - 20px);
+  }
+  .page__card_medium {
+    width: calc(100% / 3);
+  }
+
 }
