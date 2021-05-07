@@ -3,9 +3,32 @@
   display: grid;
   padding: 0;
   margin: 0;
-  grid-template-columns: 100%;
   grid-template-rows: min-content;
+  grid-template-columns: repeat(4, min-content);
+  justify-content: space-between;
   justify-items: center;
+  width: 100%;
+  align-self: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1919px) {
+  .films-list {
+    grid-template-columns: repeat(3, min-content);
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .films-list {
+    grid-template-columns: repeat(2, min-content);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .films-list {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 320px) {

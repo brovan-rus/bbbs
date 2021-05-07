@@ -187,10 +187,13 @@
     margin-bottom: 39px;
   }
 
+  .card__subtitle_place_film-card {
+    margin-bottom: 5px;
+  }
+
   .card__image {
     height: auto;
     background-image: url("../images/mentor-choise-girls-mob.jpg");
-
   }
 }
 
@@ -301,6 +304,10 @@
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
   .card_content_paper-abstract {
     padding: calc(45 * 100vw / 208 - 191.5px)  calc(15 * 100vw / 104 - 107.7px) calc(105 * 100vw / 416 - 243.5px);
+  }
+  .card__subtitle_place_film-card {
+    min-height: 40px;
+    margin-bottom: 17px;
   }
 }
 
