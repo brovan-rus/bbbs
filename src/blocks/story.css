@@ -31,10 +31,6 @@
   z-index: 2;
 }
 
-.story__link{
-  text-decoration: none;
-}
-
 @media screen and (max-width: 1440px){
   .story__title {
     display: none;
