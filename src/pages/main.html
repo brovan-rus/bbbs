@@ -7,9 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Test Page</title>
   <link rel="stylesheet" href="../styles/styles.css">
+  <!--  Для подключения плагина facebook-->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: 'your-app-id',
+        autoLogAppEvents: true,
+        xfbml: true,
+        version: 'v10.0'
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 </head>
 
 <body class="page">
+
 <header class="header container">
   <a href="#" class="header__title">наставники.про</a>
   <nav class="header__menu">
@@ -80,7 +93,7 @@
       <a class="card__link card__link_content_external-link" href="#" target="_self">перейти на сайт</a>
     </article>
     <a class="content__link" href="#" target="_self">
-      <article class="card bg bg_white card_content_article">
+      <article class="card bg bg_white card_content_article card__scroll">
         <p class="card__text card__text_content_article-heading">Девочка, 10 лет. Активный отдых</p>
         <p class="card__text card__text_content_article">Аннотация статьи в несколько абзацев. В тот момент, как ребёнок
           научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете
@@ -107,21 +120,133 @@
 
   <ul class="films-list">
     <li class="film-card">
-      <div class="film-card__image">
-        <div class="film-card__tag-container">
-          <div class="tag tag_place_film-card">рубрика</div>
-          <div class="tag tag_place_film-card">рубрика</div>
+      <a href="#" target="_self" class="content__link">
+        <div class="film-card__image">
+          <div class="film-card__tag-container">
+            <div class="tag tag_place_film-card">рубрика</div>
+            <div class="tag tag_place_film-card">рубрика</div>
+          </div>
         </div>
-      </div>
+      </a>
       <div class="film-card__description">
-        <h2 class="card__title">Жутко громко и запредельно близко</h2>
-        <p class="card__subtitle card__subtitle_place_film-card">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+        <div class="film-card__title-container">
+          <h2 class="card__title">Жутко громко и запредельно близко</h2>
+          <p class="card__subtitle card__subtitle_place_film-card">Василий Сигарев, Борисов-Мусотов (Россия), 2009
+            год</p>
+        </div>
         <a href="#" target="_self" class="content__link card__link_content_external-link">смотреть трейлер</a>
       </div>
-
-
+    </li>
+    <li class="film-card">
+      <a href="#" target="_self" class="content__link">
+        <div class="film-card__image">
+          <div class="film-card__tag-container">
+            <div class="tag tag_place_film-card">рубрика</div>
+            <div class="tag tag_place_film-card">рубрика</div>
+          </div>
+        </div>
+      </a>
+      <div class="film-card__description">
+        <div class="film-card__title-container">
+          <h2 class="card__title">Жизнь Кабачка</h2>
+          <p class="card__subtitle card__subtitle_place_film-card">Клод Баррас, мультфильм, Швейцария, Франция, 2016</p>
+        </div>
+        <a href="#" target="_self" class="content__link card__link_content_external-link">смотреть трейлер</a>
+      </div>
+    </li>
+    <li class="film-card">
+      <a href="#" target="_self" class="content__link">
+        <div class="film-card__image">
+          <div class="film-card__tag-container">
+            <div class="tag tag_place_film-card">рубрика</div>
+            <div class="tag tag_place_film-card">рубрика</div>
+          </div>
+        </div>
+      </a>
+      <div class="film-card__description">
+        <div class="film-card__title-container">
+          <h2 class="card__title">Волчок</h2>
+          <p class="card__subtitle card__subtitle_place_film-card">Василий Сигарев, Россия, 2009 год</p>
+        </div>
+        <a href="#" target="_self" class="content__link card__link_content_external-link">смотреть трейлер</a>
+      </div>
+    </li>
+    <li class="film-card">
+      <a href="#" target="_self" class="content__link">
+        <div class="film-card__image">
+          <div class="film-card__tag-container">
+            <div class="tag tag_place_film-card">рубрика</div>
+            <div class="tag tag_place_film-card">рубрика</div>
+          </div>
+        </div>
+      </a>
+      <div class="film-card__description">
+        <div class="film-card__title-container">
+          <h2 class="card__title">Жутко громко и запредельно близко</h2>
+          <p class="card__subtitle card__subtitle_place_film-card">Василий Сигарев, Борисов-Мусотов (Россия), 2009
+            год</p>
+        </div>
+        <a href="#" target="_self" class="content__link card__link_content_external-link">смотреть трейлер</a>
+      </div>
     </li>
   </ul>
+
+  <section class="video-section">
+    <article class="card bg bg_yellow card_content_video-description">
+      <div class="video-section__description">
+        <h2 class="card__title">Эфир с выпускником нашей программы</h2>
+        <p class="card__subtitle card__subtitle_place_video-section">Иван Рустаев, выпускник программы</p>
+      </div>
+      <a href="#" target="_self" class="card__link_content_external-link">смотреть видео</a>
+    </article>
+    <article class="card card_content_video"></article>
+  </section>
+
+  <div class="articles articles_content_social-media">
+    <article class="card card_content_social-media">
+      <div class="fb-page" data-href="https://www.facebook.com/BigBrothers.BigSisters.Russia/" data-tabs="timeline"
+           data-width="420" data-height="618" data-small-header="false" data-adapt-container-width="true"
+           data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/BigBrothers.BigSisters.Russia/" class="fb-xfbml-parse-ignore"><a
+          href="https://www.facebook.com/BigBrothers.BigSisters.Russia/">Старшие Братья Старшие Сестры / Big Brothers
+          Big Sisters of Russia</a></blockquote>
+      </div>
+    </article>
+
+    <ul class="questions">
+      <li class="questions__list-element">
+        <a href="#" target="_self" class="content__link question card">
+          <h2 class="card__title card__title_content_question">Я боюсь, что ребёнок ко мне слишком сильно привяжется.
+            Что делать?</h2>
+          <div class="tag tag_place_question">рубрика</div>
+        </a>
+      </li>
+      <li class="questions__list-element">
+        <a href="#" target="_self" class="content__link question card">
+          <h2 class="card__title card__title_content_question">Возможно ли продлить срок участия в программе, если и я и
+            мой «младший» хотим остаться в программе?</h2>
+          <div class="tag tag_place_question">рубрика</div>
+        </a>
+      </li>
+      <li class="questions__list-element">
+        <a href="#" target="_self" class="content__link question card">
+          <h2 class="card__title card__title_content_question">Что делать если Ваш младший решил закрыть пару, т.к.
+            слишком занят с учебой и друзьями?</h2>
+          <div class="tag tag_place_question">рубрика</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <section class="articles">
+    <article class="card bg bg_green card_content_paper-abstract">
+      <div class="card__container card__container_content_paper-abstract">
+        <a class="card__link" target="_self" href="#"><h3 class="card__title card__title_content_paper-abstract">
+          У таких детей возникает ощущение отверженности. Оно приводит к напряженности и  недоверию к людям и, как итог, к реальному неприятию себя и окружающих.</h3></a>
+        <a href="#" target="_self" class="content__link card__link_content_external-link">читать статью</a>
+      </div>
+    </article>
+  </section>
 
 </main>
 
