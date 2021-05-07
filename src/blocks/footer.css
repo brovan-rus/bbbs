@@ -1,4 +1,326 @@
 .footer {
-  background-color: #2E2468
+  background-color: #2e2468;
 }
 
+.footer__logo {
+  padding-top: 40px;
+  padding-bottom: 41px;
+  display: block;
+  margin: auto;
+  width: 252px;
+  height: 46px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__logo {
+    position: absolute;
+    top: 90px;
+    left: 135px;
+    width: 415px;
+    height: 76px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__logo {
+    left: 360px;
+  }
+}
+
+.footer__item {
+  font-family: "Proto Grotesk Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #f3f2f2;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__item {
+    padding: 0;
+  }
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 21px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__links {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__links {
+    position: absolute;
+    display: block;
+    min-width: 156px;
+    height: 240px;
+    top: 110px;
+    left: 935px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__links {
+    left: 1160px;
+  }
+}
+
+.footer__link {
+  padding: 0;
+  margin-top: 17px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__link:first-child {
+    margin-top: 0;
+  }
+}
+
+.footer__line {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #c8d1ff;
+  width: 290px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__line {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__line {
+    width: 770px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__line {
+    display: none;
+  }
+}
+
+.footer__social-networks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 31px;
+}
+@media screen and (min-width: 1440px) {
+  .footer__social-networks {
+    display: block;
+    position: absolute;
+    top: 110px;
+    left: 1135px;
+    margin: 0;
+  }
+
+  .footer__social-network:first-child {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__social-networks {
+    left: 1360px;
+  }
+}
+
+.footer__social-network {
+  padding: 0;
+  margin-top: 17px;
+  margin-bottom: 0;
+}
+
+.footer__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__buttons {
+    position: absolute;
+    top: 110px;
+    left: 635px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__buttons {
+    left: 860px;
+  }
+}
+
+.footer__help-money {
+  font-family: "Proto Grotesk Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #f3f2f2;
+  border: 1px solid #f3f2f2;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: #2e2468;
+  height: 40px;
+  width: 134px;
+}
+
+.footer__description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__description {
+    width: 690px;
+    margin: auto;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__description {
+    position: absolute;
+  }
+}
+
+.footer__copyright {
+  font-family: "PTRootUI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #c8d1ff;
+  margin: 0;
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__copyright {
+    position: absolute;
+    top: 290px;
+    left: 135px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__copyright {
+    left: 360px;
+  }
+}
+
+.footer__develop {
+  font-family: "PTRootUI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #f3f2f2;
+  margin: 0;
+  padding-top: 5px;
+  padding-right: 30px;
+}
+@media screen and (min-width: 768px) {
+  .footer__develop {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__develop {
+    position: absolute;
+    top: 328px;
+    left: 135px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__develop {
+    left: 360px;
+  }
+}
+
+.footer__design {
+  font-family: "PTRootUI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #f3f2f2;
+  margin: 0;
+  padding-top: 5px;
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__design {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__design {
+    position: absolute;
+    top: 328px;
+    left: 515px;
+    width: 267px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__design {
+    left: 740px;
+  }
+}
+
+.footer__design:last-child {
+  padding-bottom: 30px;
+}
+
+.footer__develop-design-link {
+  font-family: "PTRootUI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  color: #f3f2f2;
+  line-height: 17px;
+  text-decoration: none;
+  border-bottom: 0.3px solid #f3f2f2;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__section {
+    display: flex;
+    position: relative;
+    min-height: 436px;
+  }
+}
