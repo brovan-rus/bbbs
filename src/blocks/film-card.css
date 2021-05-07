@@ -28,17 +28,53 @@
 
 .film-card__description {
   padding: 15px 30px;
+  height: 169px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1919px) {
   .film-card {
     width: 370px;
   }
   .film-card__image {
     height: 211px;
+  }
+}
+
+@media screen and (max-width: 1919px) {
+  .film-card:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .film-card:nth-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .film-card:nth-child(2) {
+    display: none;
+  }
+  .film-card{
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .film-card {
+    width: calc(156.6px + 5 * 100vw / 24);
+  }
+  .film-card__image {
+    height: calc(83px + 100vw /8);
+  }
+  .film-card__description {
+    height: 147px;
   }
 }
 
@@ -50,4 +86,5 @@
     height: 163px;
   }
 }
+
 

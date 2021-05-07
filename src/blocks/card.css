@@ -18,20 +18,38 @@
   align-content: center;
 }
 
-.card::-webkit-scrollbar {
+.card_content_video-description {
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+  .card_content_video-description {
+    grid-row: 2/2;
+    border-radius: 0 0 30px 30px;
+  }
+  .card_content_video {
+    border-radius: 30px 30px 0 0;
+  }
+}
+
+.card__scroll::-webkit-scrollbar {
   width: 5px;
 }
 
-.card::-webkit-scrollbar-track {
+.card__scroll::-webkit-scrollbar-track {
   background: transparent;
   border-radius: 5px;
   margin: 30px 7px 30px 0;
 }
 
-.card::-webkit-scrollbar-track-piece {
+.card__scroll::-webkit-scrollbar-track-piece {
 }
 
-.card::-webkit-scrollbar-thumb {
+.card__scroll::-webkit-scrollbar-thumb {
   background-color: #E8E6E6;
   border-radius: 6px;
   min-height: 30px;
@@ -60,6 +78,11 @@
   font-weight: 300;
   font-size: 23px;
   line-height: 30px;
+  color: #000000;
+}
+
+.card__title_place_film-card {
+  min-height: 60px;
 }
 
 
@@ -92,7 +115,10 @@
 .card__subtitle_place_film-card {
   margin-bottom: 15px;
   min-height: 54px;
+}
 
+.card__subtitle_place_video-section {
+  margin-bottom: 0;
 }
 
 .card__link {
@@ -128,11 +154,7 @@
 }
 
 .card__scroll {
-  padding-top: 15px;
-  padding-right: 20px;
-  margin-right: -20px;
   overflow: scroll;
-  max-height: 192px;
 }
 .card__scroll_sm {
   max-height: 145px;
@@ -148,20 +170,27 @@
   }
 }
 
+@media screen and (max-width: 1439px) {
+  .card__title {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .card__subtitle {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+
+}
+
 @media screen and (max-width: 1024px) {
   .card {
     padding: 17px 15px 15px 15px;
 
   }
 
-  .card__title {
-    font-size: 19px;
-    line-height: 23px;
-  }
 
   .card__subtitle {
-    font-size: 12px;
-    line-height: 17px;
     margin-bottom: 62px;
   }
 
@@ -193,15 +222,18 @@
     margin-bottom: 39px;
   }
 
+  .card__subtitle_place_film-card {
+    margin-bottom: 5px;
+  }
+
   .card__image {
     height: auto;
     background-image: url("../images/mentor-choise-girls-mob.jpg");
-
   }
 }
 
 .card_content_article {
-  padding: 47px 15px 30px 15px;
+  padding: 47px 15px 30px 30px;
   margin: 0;
   justify-items: left;
   height: 100%;
@@ -220,7 +252,7 @@
   line-height: 19px;
   letter-spacing: 0.2px;
   text-align: left;
-  margin: 0 0 105px 0;
+  margin: 0 0 0 0;
 }
 
 .card__text_content_article {
@@ -238,24 +270,20 @@
   margin: 0;
 }
 
+@media screen and (min-width: 1440px){
+  .card__text_content_article-heading {
+    margin-bottom: 105px;
+  }
+}
+
+
 @media screen and (max-width: 1440px){
   .card_content_article {
     padding: 30px 10px 10px 30px;
   }
 }
 
-@media screen and (max-width: 1350px){
-  .card__text_content_article {
-    font-size: 16px;
-    line-height: 22px;
-  }
-  .card__text_content_article-heading {
-    font-size: 13px;
-    line-height: 18px;
-  }
-}
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1439px){
   .card_content_article {
     padding-top: 30px;
     height: 100%;
@@ -282,6 +310,25 @@
   }
 }
 
+.card_content_video {
+  display: block;
+  padding: 0;
+  background-color: transparent;
+  background-image: url("../images/video-poster.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.card_content_social-media {
+  display: flex;
+  border-radius: 30px;
+  overflow:hidden;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+
 .card_content_paper-abstract{
   padding: 120px 400px 30px 400px;
 }
@@ -298,6 +345,11 @@
   min-height: 300px;
 }
 
+.card__title_content_question {
+  text-align: left;
+  margin-bottom: 17px;
+}
+
 @media screen and (max-width: 1920px) and (min-width: 1440px) {
   .card_content_paper-abstract {
     padding: 120px calc(5 * 100vw / 8 - 800px) 30px calc(5 * 100vw / 8 - 800px);
@@ -308,23 +360,35 @@
   .card_content_paper-abstract {
     padding: calc(45 * 100vw / 208 - 191.5px)  calc(15 * 100vw / 104 - 107.7px) calc(105 * 100vw / 416 - 243.5px);
   }
+  .card__subtitle_place_film-card {
+    min-height: 40px;
+    margin-bottom: 17px;
+  }
+
+  .card__link_content_external-link{
+    font-size: 15px;
+    line-height: 19px;
+  }
 }
 
-@media screen and (max-width: 1145px){
+@media screen and (max-width: 1439px){
   .card__title_content_paper-abstract {
     font-size: 19px;
     line-height: 23px;
     margin: 0 0 10px 0;
     min-height: 240px;
   }
-  .card__link_content_external-link{
-    line-height: 17px;
-  }
+
 }
 
 @media screen and (max-width: 1024px) {
   .card_content_paper-abstract {
     padding: 30px 15px 15px 15px;
+  }
+
+  .card__link_content_external-link{
+    font-size: 12px;
+    line-height: 17px;
   }
 }
 
