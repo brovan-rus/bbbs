@@ -134,6 +134,9 @@
   overflow: scroll;
   max-height: 192px;
 }
+.card__scroll_sm {
+  max-height: 145px;
+}
 
 .card__scroll_big{
   max-height: 389px;

@@ -29,3 +29,7 @@
 .tag_place_film-card {
   margin: 0;
 }
+
+.tag_place_null {
+  background: transparent;
+}
