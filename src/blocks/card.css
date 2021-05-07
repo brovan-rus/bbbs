@@ -87,7 +87,11 @@
   padding-right: 20px;
   margin-right: -20px;
   overflow: scroll;
-  max-height: 100%;
+  max-height: 192px;
+}
+
+.card__scroll_big{
+  max-height: 389px;
 }
 
 @media screen and (max-width: 1440px) {
