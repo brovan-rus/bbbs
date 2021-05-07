@@ -63,6 +63,10 @@
   line-height: 30px;
 }
 
+.card__title_place_film-card {
+  min-height: 60px;
+}
+
 
 .card__image {
   width: 100%;

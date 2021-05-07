@@ -31,7 +31,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 169px;
+  justify-content: space-between;
 }
+
+
 
 @media screen and (max-width: 1919px) {
   .film-card {
@@ -70,6 +74,9 @@
   }
   .film-card__image {
     height: calc(83px + 100vw /8);
+  }
+  .film-card__description {
+    height: 147px;
   }
 }
 
