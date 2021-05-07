@@ -1,0 +1,12 @@
+.buttons {
+  display: flex;
+  overflow: scroll;
+}
+
+.buttons::-webkit-scrollbar {
+  width: 0;
+}
+
+.buttons::-webkit-scrollbar {
+  width: 0;
+}
