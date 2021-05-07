@@ -32,7 +32,7 @@
   gap:30px;
 }
 
-.page__card-big {
+.page__card_big {
   width: 100%;
 }
 
@@ -44,7 +44,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 790px) {
   .page__header {
     font-size: 74px;
     line-height: 80px;
@@ -54,7 +54,7 @@
     width: calc(100% / 2);
   }
   .page__card_small {
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 2 - 30px);
   }
   .page__card_medium {
     width: calc(100% / 2);
