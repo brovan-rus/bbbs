@@ -5,6 +5,33 @@
   justify-items: center;
 }
 
+.articles_content_social-media {
+  grid-template-columns: 420px 1fr;
+  grid-template-rows: 618px;
+  column-gap: 30px;
+}
+
+@media screen and (max-width: 1919px) and (min-width: 1440px){
+  .articles_content_social-media {
+    grid-template-columns: calc(5 * 100vw / 48 + 220px) 1fr;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .articles_content_social-media {
+    grid-template-columns: 370px 1fr;
+    grid-template-rows: 545px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .articles_content_social-media {
+    grid-template-columns: 100%;
+    grid-template-rows: 427px min-content;
+  }
+
+}
+
 .articles__widget {
   display: flex;
   justify-content: space-between;

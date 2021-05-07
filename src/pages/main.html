@@ -7,6 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Test Page</title>
   <link rel="stylesheet" href="../styles/styles.css">
+  <!--  Для подключения плагина facebook-->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: 'your-app-id',
+        autoLogAppEvents: true,
+        xfbml: true,
+        version: 'v10.0'
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0"
+          nonce="rJMrcvPT"></script>
+
 </head>
 
 <body class="page">
@@ -187,8 +202,26 @@
       <a href="#" target="_self" class="card__link_content_external-link">смотреть видео</a>
     </article>
     <article class="card card_content_video"></article>
-
   </section>
+
+  <div class="articles articles_content_social-media">
+    <article class="card card_content_social-media">
+      <div class="fb-page" data-href="https://www.facebook.com/BigBrothers.BigSisters.Russia/" data-tabs="timeline"
+           data-width="420" data-height="618" data-small-header="false" data-adapt-container-width="true"
+           data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/BigBrothers.BigSisters.Russia/" class="fb-xfbml-parse-ignore"><a
+          href="https://www.facebook.com/BigBrothers.BigSisters.Russia/">Старшие Братья Старшие Сестры / Big Brothers
+          Big Sisters of Russia</a></blockquote>
+      </div>
+    </article>
+
+    <ul class="questions">
+      <li class="question">
+        <h2 class="card__title"></h2>
+        <div class="tag"></div>
+      </li>
+    </ul>
+  </div>
 
 </main>
 
