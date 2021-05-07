@@ -12,6 +12,11 @@
   box-sizing: content-box;
 }
 
+.tag_place_question {
+  background: #F3F2F2;
+  margin: 0;
+}
+
 .tag_place_card {
   width: 130px;
   font-family: 'PT Root UI', 'Arial', sans-serif;

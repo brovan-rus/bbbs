@@ -28,14 +28,13 @@
   .articles_content_social-media {
     grid-template-columns: 100%;
     grid-template-rows: 427px min-content;
+    row-gap: 30px;
   }
-
 }
 
 .articles__widget {
   display: flex;
   justify-content: space-between;
-
 }
 
 .articles__two-columns_left {

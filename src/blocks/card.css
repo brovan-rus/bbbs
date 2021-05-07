@@ -78,6 +78,7 @@
   font-weight: 300;
   font-size: 23px;
   line-height: 30px;
+  color: #000000;
 }
 
 .card__title_place_film-card {
@@ -162,20 +163,27 @@
   }
 }
 
+@media screen and (max-width: 1439px) {
+  .card__title {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .card__subtitle {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+
+}
+
 @media screen and (max-width: 1024px) {
   .card {
     padding: 17px 15px 15px 15px;
 
   }
 
-  .card__title {
-    font-size: 19px;
-    line-height: 23px;
-  }
 
   .card__subtitle {
-    font-size: 12px;
-    line-height: 17px;
     margin-bottom: 62px;
   }
 
@@ -330,6 +338,11 @@
   min-height: 300px;
 }
 
+.card__title_content_question {
+  text-align: left;
+  margin-bottom: 17px;
+}
+
 @media screen and (max-width: 1920px) and (min-width: 1440px) {
   .card_content_paper-abstract {
     padding: 120px calc(5 * 100vw / 8 - 800px) 30px calc(5 * 100vw / 8 - 800px);
@@ -351,7 +364,7 @@
   }
 }
 
-@media screen and (max-width: 1145px){
+@media screen and (max-width: 1439px){
   .card__title_content_paper-abstract {
     font-size: 19px;
     line-height: 23px;
