@@ -28,14 +28,12 @@
 
 .film-card__description {
   padding: 15px 30px;
+  height: 169px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 169px;
   justify-content: space-between;
 }
-
-
 
 @media screen and (max-width: 1919px) {
   .film-card {
