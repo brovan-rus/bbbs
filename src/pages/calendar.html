@@ -11,26 +11,26 @@
 
 <body class="page">
   <header class="header container">
-    <a href="#" class="header__title">наставники.про</a>
+    <a href="./main.html" class="header__title">наставники.про</a>
     <nav class="header__menu">
       <ul class="header__links">
         <li class="header__link-item">
-          <a href="#" class="header__link">календарь</a>
+          <a href="./calendar.html" class="header__link">календарь</a>
         </li>
         <li class="header__link-item">
-          <a href="#" class="header__link">куда пойти</a>
+          <a href="./where-to-go.html" class="header__link">куда пойти</a>
         </li>
         <li class="header__link-item">
-          <a href="#" class="header__link">вопросы</a>
+          <a href="./questions.html" class="header__link">вопросы</a>
         </li>
         <li class="header__link-item">
-          <a href="#" class="header__link">читать и смотреть</a>
+          <a href="./read-and-show.html" class="header__link">читать и смотреть</a>
         </li>
         <li class="header__link-item">
-          <a href="#" class="header__link">правда детей</a>
+          <a href="./children-true.html" class="header__link">правда детей</a>
         </li>
         <li class="header__link-item">
-          <a href="#" class="header__link">истории</a>
+          <a href="./histories.html" class="header__link">истории</a>
         </li>
       </ul>
     </nav>
@@ -39,7 +39,6 @@
       <input type="text" placeholder="Искать здесь..." class="header__search-input">
       <button class="header__auauthorization-button"></button>
     </form>
-
   </header>
 
   <main class="content container calendar">
@@ -62,7 +61,7 @@
         <div class="event-card__contact">Александра, +7 926 356-78-90</div>
         <div class="event-card__footer">
           <button type="btn" class="btn btn_blue btn_active">Записаться</button>
-          <p>Осталось 5 мест</p>
+          <p class="event-card__place-count">Осталось 5 мест</p>
           <button type="btn" class="btn btn_blue btn_elipses"></button>
         </div>
       </div>
@@ -75,9 +74,9 @@
         <div class="event-card__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</div>
         <div class="event-card__contact">Александра, +7 926 356-78-90</div>
         <div class="event-card__footer">
-          <button type="btn" class="btn btn_blue btn_disabled" disabled>Запись закрыта</button>
-          <p>Осталось 5 мест</p>
-          <button type="btn" class="btn btn_blue">...</button>
+          <button type="btn" class="btn btn_blue btn_disabled" disabled>Записаться</button>
+          <p class="event-card__place-count">Запись закрыта</p>
+          <button type="btn" class="btn btn_blue btn_elipses"></button>
         </div>
       </div>
       <div class="event-card">
@@ -89,22 +88,8 @@
         <div class="event-card__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</div>
         <div class="event-card__contact">Александра, +7 926 356-78-90</div>
         <div class="event-card__footer">
-          <button type="btn" class="btn btn_blue btn_disabled" disabled>Запись закрыта</button>
-          <p>Осталось 5 мест</p>
-          <button type="btn" class="btn btn_blue">...</button>
-        </div>
-      </div>
-      <div class="event-card">
-        <div class="event-card__assignees">Волонтеры + дети</div>
-        <div class="event-card__day-month">декабрь / понедельник</div>
-        <div class="event-card__caption">Субботний meet up: учимся проходить интевью</div>
-        <div class="event-card__number">05</div>
-        <div class="event-card__time">12:00–14:00</div>
-        <div class="event-card__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</div>
-        <div class="event-card__contact">Александра, +7 926 356-78-90</div>
-        <div class="event-card__footer">
-          <button type="btn" class="btn btn_blue">Записаться</button>
-          <p>Осталось 5 мест</p>
+          <button type="btn" class="btn btn_blue btn_disabled" disabled>Записаться</button>
+          <p class="event-card__place-count">Запись закрыта</p>
           <button type="btn" class="btn btn_blue btn_elipses"></button>
         </div>
       </div>
@@ -118,14 +103,26 @@
         <div class="event-card__contact">Александра, +7 926 356-78-90</div>
         <div class="event-card__footer">
           <button type="btn" class="btn btn_blue">Записаться</button>
-          <p>Осталось 5 мест</p>
+          <p class="event-card__place-count">Осталось 5 мест</p>
+          <button type="btn" class="btn btn_blue btn_elipses"></button>
+        </div>
+      </div>
+      <div class="event-card">
+        <div class="event-card__assignees">Волонтеры + дети</div>
+        <div class="event-card__day-month">декабрь / понедельник</div>
+        <div class="event-card__caption">Субботний meet up: учимся проходить интевью</div>
+        <div class="event-card__number">05</div>
+        <div class="event-card__time">12:00–14:00</div>
+        <div class="event-card__adress">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</div>
+        <div class="event-card__contact">Александра, +7 926 356-78-90</div>
+        <div class="event-card__footer">
+          <button type="btn" class="btn btn_blue">Записаться</button>
+          <p class="event-card__place-count">Осталось 5 мест</p>
           <button type="btn" class="btn btn_blue btn_elipses"></button>
         </div>
       </div>
     </section>
 
-    <section>
-    </section>
   </main>
 
   <footer class="footer">

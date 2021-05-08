@@ -156,9 +156,12 @@
 .card__scroll {
   overflow: scroll;
 }
+.card__scroll_sm {
+  max-height: 145px;
+}
 
 .card__scroll_big{
-  max-height: 389px;
+  max-height: unset;
 }
 
 @media screen and (max-width: 1440px) {
