@@ -6,6 +6,10 @@
   min-width: 290px;
 }
 
+.widget_content_event {
+  height: 100%;
+}
+
 .widget__card {
   position: relative;
   border-radius: 30px;
@@ -17,22 +21,25 @@
   .widget {
     height: calc(47 * 100vw / 104 - 80.8px);
   }
+  .widget_reg {
+    height: 100%;
+  }
+
 }
 
-@media screen and (max-width: 640px){
-  .widget {
-    width: 290px;
-  }
-}
 
 @media screen and (max-width: 640px){
   .widget {
     margin-bottom: 30px;
-    min-height: 290px;
+    /*min-height: 290px;*/
     width: 290px;
   }
   .widget:last-child {
     margin-bottom: 0;
+  }
+
+  .widget_event {
+    height: auto;
   }
 }
 
