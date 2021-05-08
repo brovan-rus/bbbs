@@ -8,7 +8,6 @@
   font-family: Proto Grotesk Web Light, Arial, sans-serif;
   max-height: 50px;
   width: 100%;
-
 }
 
 @media (min-width: 1024px) {
@@ -182,24 +181,6 @@
 }
 
 /*------------- Выпадающее меню--------------*/
-/*.header__link-item {*/
-/*  display: inline-block;*/
-/*  margin-right: 50px;*/
-/*  position: relative;*/
-/*}*/
-
-/*.header__link-item:last-child {*/
-/*  margin-right: 0;*/
-/*}*/
-
-/*.header__link {*/
-/*  display: block;*/
-/*  padding: 10px 15px;*/
-/*  text-decoration: none;*/
-/*  outline: none;*/
-/*  font-family: 'Lora', serif;*/
-/*  transition: .5s linear;*/
-/*}*/
 .header__submenu-link {
   text-decoration: none;
   font-size: 14px;
@@ -237,7 +218,7 @@
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;
   background: #F3F2F2;
-
+  z-index: 10;
 
 }
 

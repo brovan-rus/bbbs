@@ -23,36 +23,88 @@
 
 <body class="page">
 
-  <header class="header container">
-    <a href="./main.html" class="header__title">наставники.про</a>
-    <nav class="header__menu">
-      <ul class="header__links">
-        <li class="header__link-item">
-          <a href="./calendar.html" class="header__link">календарь</a>
-        </li>
-        <li class="header__link-item">
-          <a href="./where-to-go.html" class="header__link">куда пойти</a>
-        </li>
-        <li class="header__link-item">
-          <a href="./questions.html" class="header__link">вопросы</a>
-        </li>
-        <li class="header__link-item">
-          <a href="./read-and-show.html" class="header__link">читать и смотреть</a>
-        </li>
-        <li class="header__link-item">
-          <a href="./children-true.html" class="header__link">правда детей</a>
-        </li>
-        <li class="header__link-item">
-          <a href="./histories.html" class="header__link">истории</a>
-        </li>
-      </ul>
-    </nav>
-    <form class="header__form">
-      <button type="submit" class="header__search-button"></button>
-      <input type="text" placeholder="Искать здесь..." class="header__search-input">
-      <button class="header__auauthorization-button"></button>
-    </form>
-  </header>
+<header class="header container">
+  <h1 class="header__title">наставники.про</h1>
+  <nav class="header__menu">
+    <ul class="header__links">
+      <li class="header__link-item">
+        <a href="./calendar.html" class="header__link" target="_blank">календарь</a>
+      </li>
+      <li class="header__link-item">
+        <a href="./where-to-go.html" class="header__link" target="_blank">куда пойти</a>
+      </li>
+      <li class="header__link-item">
+        <a href="./questions.html" class="header__link" target="_blank">вопросы</a>
+      </li>
+      <li class="header__link-item">
+        <a href="./read-and-show.html" class="header__link" target="_blank">читать и смотреть</a>
+        <ul class="header__submenu-links">
+          <li class="header__submenu-link-item">
+            <a class="header__submenu-link" href="#" target="_blank">Справочник</a>
+          </li>
+          <li class="header__submenu-link-item">
+            <a class="header__submenu-link" href="#" target="_blank">Видео</a>
+          </li>
+          <li class="header__submenu-link-item">
+            <a class="header__submenu-link" href="#" target="_blank">Статьи</a>
+          </li>
+          <li class="header__submenu-link-item">
+            <a class="header__submenu-link" href="#" target="_blank">Фильмы</a>
+          </li>
+          <li class="header__submenu-link-item">
+            <a class="header__submenu-link" href="#" target="_blank">Книги</a>
+          </li>
+        </ul>
+      </li>
+      <li class="header__link-item">
+        <a href="./children-true.html" class="header__link" target="_blank">правда детей</a>
+      </li>
+      <li class="header__link-item">
+        <a href="./histories.html" class="header__link" target="_blank">истории</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <form class="header__form">
+    <button type="submit" class="header__search-button"></button>
+    <input type="text" placeholder="Агрессия |" class="header__search-input">
+    <button class="header__auauthorization-button"></button>
+  </form>
+
+  <nav class="header__menu-sandwich">
+    <input
+      id="header__menu-toggle"
+      type="checkbox"
+      class="header__menu-toggle"
+    />
+    <label class="header__menu-btn" for="header__menu-toggle">
+      <span class="header__btn-logo"></span>
+    </label>
+    <ul class="header__links-sandwich">
+      <li class="header__link-item">
+        <a href="./calendar.html" class="header__link" target="_blank">календарь</a>
+      </li>
+      <li class="header__link-item">
+        <a href="./where-to-go.html" class="header__link" target="_blank">куда пойти</a>
+      </li>
+      <li class="header__link-item">
+        <a href="./questions.html" class="header__link" target="_blank">вопросы</a>
+      </li>
+      <li class="header__link-item">
+        <a href="./read-and-show.html" class="header__link" target="_blank">читать и смотреть</a>
+      </li>
+      <li class="header__link-item">
+        <a href="./children-true.html" class="header__link" target="_blank">правда детей</a>
+      </li>
+      <li class="header__link-item">
+        <a href="./histories.html" class="header__link" target="_blank">истории</a>
+
+      </li>
+    </ul>
+  </nav>
+
+</header>
 
   <main class="content container">
 
