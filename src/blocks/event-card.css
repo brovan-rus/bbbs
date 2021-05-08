@@ -10,11 +10,40 @@
   box-sizing: border-box;
 }
 
+.event-card_place_main {
+  height: 100%;
+}
+
+.event-card__time {
+  margin: 0;
+  padding-bottom: 3px;
+  width: 100%;
+  text-align: left;
+  font-family: 'PT Root UI', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #1A1A1A;
+  border-bottom: 0.5px solid #A7A6A6;
+  padding-top: 70px;
+}
+
+
 @media screen and (min-width: 920px) {
   .event-card {
     padding: 30px 10px;
   }
 }
+
+
+@media screen and (max-width: 1024px) {
+  .event-card__time {
+    padding-top: 50px;
+  }
+}
+
+
 
 @media screen and (min-width: 1480px) {
   .event-card {
@@ -92,21 +121,6 @@
     font-size: 100px;
     line-height: 100px;
   }
-}
-
-.event-card__time {
-  margin: 0;
-  padding-bottom: 3px;
-  width: 100%;
-  text-align: left;
-  font-family: PT Root UI;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 17px;
-  letter-spacing: 0.2px;
-  color: #1A1A1A;
-  border-bottom: 0.5px solid #A7A6A6;
-  padding-top: 70px;
 }
 
 @media screen and (min-width: 1080px) {
