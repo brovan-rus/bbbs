@@ -156,6 +156,13 @@
 .card__scroll {
   overflow: scroll;
 }
+.card__scroll_sm {
+  max-height: 145px;
+}
+
+.card__scroll_big{
+  max-height: unset;
+}
 
 @media screen and (max-width: 1440px) {
   .card__image_place_main {
@@ -208,7 +215,7 @@
 
 @media screen and (max-width: 640px) {
   .card {
-    width: 290px;
+    width: 100%;
   }
 
   .card__subtitle {
@@ -279,7 +286,7 @@
 @media screen and (max-width: 1439px){
   .card_content_article {
     padding-top: 30px;
-    height: 188px;
+    height: 100%;
   }
 
   .card__text {

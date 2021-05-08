@@ -4,6 +4,7 @@
   grid-template-rows: min-content;
   row-gap: 30px;
   padding-bottom: 120px;
+  z-index: 9;
 }
 
 @media screen and (max-width: 1024px) {

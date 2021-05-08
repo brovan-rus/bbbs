@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI_KIT</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UI_KIT</title>
-  <link rel="stylesheet" href="../styles/styles.css">
-</head>
+  <body class="page">
+    <header class="header container">
+      <p>шапка - меню</p>
+    </header>
 
-<body class="page">
-  <header class="header container">
-    <p>шапка - меню</p>
-  </header>
+    <main class="content container">
+          <section class="page__intro container container_full-width">
+      <h1 class="page__header">UI_kit</h1>
+      <div class="buttons">
+        <div class="buttons__line">
 
-  <main class="content container">
-    <h1>UI_KIT</h1>
-    <section class="buttons">
-      <button type="btn" class="btn">Кнопка</button>
-      <button type="btn" class="btn">Кнопка ховер</button>
-      <button type="btn" class="btn btn_active">Кнопка нажатая</button>
-      <button type="btn" class="btn btn_active">Ховер нажатой кнопки</button>
+          <button type="btn" class="btn">Кнопка</button>
+          <button type="btn" class="btn">Кнопка ховер</button>
+          <button type="btn" class="btn btn_active">Кнопка нажатая</button>
+          <button type="btn" class="btn btn_active">Ховер нажатой кнопки</button>
 
-      <button type="btn" class="btn btn_blue">Кнопка</button>
-      <button type="btn" class="btn btn_blue">Кнопка ховер</button>
-      <button type="btn" class="btn btn_blue btn_active">Кнопка нажатая</button>
-      <button type="btn" class="btn btn_blue btn_active">Ховер нажатой кнопки</button>
+          <button type="btn" class="btn btn_blue">Кнопка</button>
+          <button type="btn" class="btn btn_blue">Кнопка ховер</button>
+          <button type="btn" class="btn btn_blue btn_active">Кнопка нажатая</button>
+          <button type="btn" class="btn btn_blue btn_active">Ховер нажатой кнопки</button>
+        </div>
+      </div>
     </section>
-    <section class="">
+    <section class="container">
       <article class="card bg bg_green">
         <p class="card__rubric">Выбор наставника</p>
         <h2 class="card__caption">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего нужен переходный</h2>
@@ -65,35 +69,247 @@
       </article>
     </section>
 
-    <section style="display: flex;overflow-x: scroll;">
-      <article class="card bg bg_red">
-        <p class="card__rubric">Выбор наставника</p>
-        <h2 class="card__caption">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего нужен переходный</h2>
-        <p class="card__author">Ирина Стасенко, педагог-психолог</p>
-        <a class="card__link">читать на сайте</a>
+    <section class="page__cards container">
+      <article class="page__card page__card_small">
+        <section class="card bg bg_green">
+          <p class="card__rubric">Выбор наставника</p>
+          <h2 class="card__caption">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего нужен переходный
+          </h2>
+          <p class="card__author">Ирина Стасенко, педагог-психолог</p>
+          <a class="card__link">читать на сайте</a>
+        </section>
+        <section class="card bg bg_white">
+          <div class="card__scroll">
+            <p class="card__author">Девочка, 10 лет. Познавательный</p>
+            <p class="card__text">
+              Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
+              а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+              понимать
+              чуть лучше
+              и, в конце концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово,
+              а задавать
+              бесконечное количество вопросов, жизнь меняется.
+              Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок
+              научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете
+              не понимать друг
+              друга, потом понимать чуть лучше и, в конце концов, научитесь даже шутить. Аннотация статьи в несколько
+              абзацев.
+            </p>
+          </div>
+        </section>
       </article>
-      <article class="card bg bg_yellow">
-        <p class="card__rubric">Выбор наставника</p>
-        <h2 class="card__caption">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего нужен переходный</h2>
-        <p class="card__author">Ирина Стасенко, педагог-психолог</p>
-        <a class="card__link">читать на сайте</a>
+      <article class="page__card page__card_small">
+        <section class="card bg bg_yellow">
+          <p class="card__rubric">Выбор наставника</p>
+          <h2 class="card__caption">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего нужен переходный
+          </h2>
+          <p class="card__author">Ирина Стасенко, педагог-психолог</p>
+          <a class="card__link">читать на сайте</a>
+        </section>
+        <section class="card bg bg_white">
+          <div class="card__scroll">
+            <p class="card__author">Девочка, 10 лет. Познавательный</p>
+            <p class="card__text">
+              Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
+              а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+              понимать
+              чуть лучше
+              и, в конце концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово,
+              а задавать
+              бесконечное количество вопросов, жизнь меняется.
+              Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок
+              научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.
+              Вы будете
+              не понимать друг
+              друга, потом понимать чуть лучше и, в конце концов, научитесь даже шутить. Аннотация статьи в несколько
+              абзацев.
+            </p>
+          </div>
+        </section>
       </article>
-      <article class="card bg bg_green">
-        <p class="card__rubric">Выбор наставника</p>
-        <h2 class="card__caption">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего нужен переходный</h2>
-        <p class="card__author">Ирина Стасенко, педагог-психолог</p>
-        <a class="card__link">читать на сайте</a>
+      <article class="page__card page__card_small">
+        <section class="card bg bg_pink">
+          <p class="card__rubric">Выбор наставника</p>
+          <h2 class="card__caption">Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего нужен переходный
+          </h2>
+          <p class="card__author">Ирина Стасенко, педагог-психолог</p>
+          <a class="card__link">читать на сайте</a>
+        </section>
+        <section class="card bg bg_white">
+          <div class="card__scroll">
+            <p class="card__author">Девочка, 10 лет. Познавательный</p>
+            <p class="card__text">
+              Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
+              а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+              понимать
+              чуть лучше
+              и, в конце концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно
+              слово,
+              а задавать
+              бесконечное количество вопросов, жизнь меняется.
+              Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок
+              научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.
+              Вы будете
+              не понимать друг
+              друга, потом понимать чуть лучше и, в конце концов, научитесь даже шутить. Аннотация статьи в
+              несколько
+              абзацев.
+            </p>
+          </div>
+        </section>
       </article>
     </section>
+      
+    
+      <section class="">
+          
+        
+        <article class="card bg bg_green">
+          <p class="card__name">Выбор наставника</p>
+          <h2 class="card__caption">
+            Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего
+            нужен переходный
+          </h2>
+          <p class="card__author">Ирина Стасенко, педагог-психолог</p>
+          <a class="card__link">читать на сайте</a>
+        </article>
 
 
-  </main>
+        <article class="card bg bg_white">
+          <div class="card__scroll">
+            <p class="card__author">Девочка, 10 лет. Познавательный</p>
+            <p class="card__text">
+              Аннотация книги в несколько абзацев. В тот момент, как ребёнок
+              научился говорить, и не одно слово, а задавать бесконечное
+              количество вопросов, жизнь меняется. Вы будете не понимать друг
+              друга, потом понимать чуть лучше и, в конце концов, научитесь даже
+              шутить. В тот момент, как ребёнок научился говорить, и не одно
+              слово, а задавать бесконечное количество вопросов, жизнь меняется.
+              Аннотация статьи в несколько абзацев. Аннотация статьи в несколько
+              абзацев. В тот момент, как ребёнок научился говорить, и не одно
+              слово, а задавать бесконечное количество вопросов, жизнь меняется.
+              Вы будете не понимать друг друга, потом понимать чуть лучше и,
+              в конце концов, научитесь даже шутить. Аннотация статьи в
+              несколько абзацев.
+            </p>
+          </div>
+        </article>
 
-  <footer class="footer">
-    <section class="container">
-      <p>footer</p>
-    </section>
-  </footer>
-</body>
+        <article class="card bg bg_purple">
+          <p class="card__name">Выбор наставника</p>
+          <h2 class="card__caption">
+            Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего
+            нужен переходный
+          </h2>
+          <p class="card__author">Ирина Стасенко, педагог-психолог</p>
+          <img
+            class="card__image"
+            src="/src/images/girls.jpg"
+            alt="Девчёнки на берегу"
+          />
+          <a class="card__link">читать на сайте</a>
+        </article>
+      </section>
 
+      <section style="display: flex; overflow-x: scroll">
+        <article class="card bg bg_red">
+          <p class="card__name">Выбор наставника</p>
+          <h2 class="card__caption">
+            Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего
+            нужен переходный
+          </h2>
+          <p class="card__author">Ирина Стасенко, педагог-психолог</p>
+          <a class="card__link">читать на сайте</a>
+        </article>
+        <article class="card bg bg_yellow">
+          <p class="card__name">Выбор наставника</p>
+          <h2 class="card__caption">
+            Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего
+            нужен переходный
+          </h2>
+          <p class="card__author">Ирина Стасенко, педагог-психолог</p>
+          <a class="card__link">читать на сайте</a>
+        </article>
+        <article class="card bg bg_green">
+          <p class="card__name">Выбор наставника</p>
+          <h2 class="card__caption">
+            Симбиоз со знаком «плюс» и симбиоз со знаком «минус» – для чего
+            нужен переходный
+          </h2>
+          <p class="card__author">Ирина Стасенко, педагог-психолог</p>
+          <a class="card__link">читать на сайте</a>
+        </article>
+      </section>
+
+      <section></section>
+    </main>
+
+
+    <footer class="footer">
+      <section class="footer__section">
+        <img src="../images/лого_СБСС.svg" alt="логотип" class="footer__logo" />
+        <nav class="footer__links">
+          <ul class="footer__link">
+            <a href="" class="footer__item" target="_blank">О ПРОЕКТЕ</a>
+          </ul>
+          <ul class="footer__link">
+            <a href="" class="footer__item" target="_blank">КАЛЕНДАРЬ</a>
+          </ul>
+          <ul class="footer__link">
+            <a href="" class="footer__item" target="_blank">КУДА ПОЙТИ</a>
+          </ul>
+          <ul class="footer__link">
+            <a href="" class="footer__item" target="_blank">ВОПРОСЫ</a>
+          </ul>
+          <ul class="footer__link">
+            <a href="" class="footer__item" target="_blank"
+              >ЧИТАТЬ И СМОТРЕТЬ</a
+            >
+          </ul>
+          <ul class="footer__link">
+            <a href="" class="footer__item" target="_blank">ПРАВА ДЕТЕЙ</a>
+          </ul>
+          <ul class="footer__link">
+            <a href="" class="footer__item" target="_blank">ИСТОРИИ</a>
+          </ul>
+        </nav>
+
+        <p class="footer__line"></p>
+        <nav class="footer__social-networks">
+          <ul class="footer__social-network">
+            <a href="" class="footer__item" target="_blank">FACEBOOK</a>
+          </ul>
+          <ul class="footer__social-network">
+            <a href="" class="footer__item" target="_blank">VKONTAKTE</a>
+          </ul>
+          <ul class="footer__social-network">
+            <a href="" class="footer__item" target="_blank">INSTAGRAM</a>
+          </ul>
+          <ul class="footer__social-network">
+            <a href="" class="footer__item" target="_blank">YOUTUBE</a>
+          </ul>
+        </nav>
+        <form class="footer__buttons">
+          <button name="button" class="footer__help-money">
+            Помочь деньгами
+          </button>
+        </form>
+        <section class="footer__description">
+          <p class="footer__copyright">&copy; Старшие братья и сестры</p>
+          <p class="footer__develop">
+            Разработка - студенты
+            <a
+              href="https://praktikum.yandex.ru"
+              class="footer__develop-design-link"
+              >Яндекс.Практикум</a
+            >
+          </p>
+          <p class="footer__design">
+            Концепция и дизайн -
+            <a href="" class="footer__develop-design-link">krkr.design</a>
+          </p>
+        </section>
+      </section>
+    </footer>
+  </body>
 </html>

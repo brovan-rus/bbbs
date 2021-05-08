@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-@import url(../blocks/page.css);
 @import url(../blocks/header.css);
 @import url(../blocks/content.css);
 @import url(../blocks/container.css);
@@ -32,6 +31,7 @@
 
 
 /* должен быть внизу */
+@import url(../blocks/page.css);
 @import url(../blocks/bg.css);
 
 
