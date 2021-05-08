@@ -22,6 +22,12 @@
   text-decoration: none;
 }
 
+
+.content__link_place_project-description {
+  margin: 35px 0 0 30px;
+}
+
+
 .content__link_place_question {
   width: 100%;
   height: 100%;
