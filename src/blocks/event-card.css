@@ -7,21 +7,18 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  max-width: 570px;
   box-sizing: border-box;
 }
 
 @media screen and (min-width: 920px) {
   .event-card {
     padding: 30px 10px;
-    max-width: calc(100% / 2 - 20px);
   }
 }
 
 @media screen and (min-width: 1480px) {
   .event-card {
     padding: 30px;
-    max-width: calc(100% / 3 - 20px);
   }
 }
 
