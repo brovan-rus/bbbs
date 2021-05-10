@@ -38,3 +38,7 @@
 .tag_place_null {
   background: transparent;
 }
+.tag_place_null_sm {
+  background: transparent;
+  height: 0px;
+}

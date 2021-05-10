@@ -152,6 +152,10 @@
   line-height: 21px;
 }
 
+.card__text_sm {
+  margin-bottom: 0;
+}
+
 .card__scroll {
   overflow: scroll;
   height: 100%;
@@ -215,12 +219,16 @@
 
 .card_content_article {
   padding: 47px 15px 30px 30px;
-  margin: 0;
+  margin: 0 auto;
   justify-items: left;
   height: 100%;
   overflow: scroll;
   overflow-x: auto;
   max-height: 629px;
+}
+
+.card_content_article-sm {
+  height: 188px;
 }
 
 .card__text_content_article-heading {
@@ -253,6 +261,9 @@
 @media screen and (min-width: 1440px) {
   .card__text_content_article-heading {
     margin-bottom: 105px;
+  }
+  .card__text_sm {
+    margin-bottom: 10px;
   }
 }
 
