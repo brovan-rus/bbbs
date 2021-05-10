@@ -18,9 +18,12 @@
 }
 
 .tag_place_card {
-  width: 130px;
   font-family: 'PT Root UI', 'Arial', sans-serif;
   font-weight: 400;
+}
+
+.tag_place_where-to-go {
+  margin: 0 0 7px 0;
 }
 
 @media screen and (max-width: 1024px) {
