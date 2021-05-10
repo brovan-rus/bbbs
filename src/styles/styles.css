@@ -9,10 +9,6 @@
 @import url(../blocks/btn.css);
 @import url(../blocks/calendar.css);
 @import url(../blocks/event-card.css);
-
-
-
-
 /*Стили из ветки Константина*/
 
 @import url(../blocks/story.css);
@@ -26,14 +22,11 @@
 @import url(../blocks/social__media.css);
 @import url(../blocks/questions.css);
 @import url(../blocks/question.css);
+/* Стили из ветки Андрея */
 
-
-
-
+@import url(../blocks/personal-account.css);
+@import url(../blocks/personal-account-completed.css);
 /* должен быть внизу */
+
 @import url(../blocks/page.css);
 @import url(../blocks/bg.css);
-
-
-
-
