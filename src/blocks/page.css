@@ -31,7 +31,7 @@
 }
 
 .page__card-text {
-  max-height: 188px;
+  height: 100%;
 }
 
 .page__card-color {
@@ -113,7 +113,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 800px) {
   .page {}
   .page__header {
     margin: 0 0 40px;
@@ -128,7 +128,6 @@
     width: calc(100%);
   }
   .page__card-text {
-    max-height: unset;
   }
   .page__cards {
     margin-bottom: 30px;
@@ -150,7 +149,6 @@
     width: calc(100% / 2);
   }
   .page__card-text {
-    max-height: unset;
   }
   .page__cards {
     margin-bottom: 80px;

@@ -29,7 +29,7 @@
 }
 
 .footer__item {
-  font-family: "Proto Grotesk Light";
+  font-family: "Proto Grotesk Web Light";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -173,7 +173,7 @@
 }
 
 .footer__help-money {
-  font-family: "Proto Grotesk Light";
+  font-family: "Proto Grotesk Web Light";
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -209,7 +209,7 @@
 }
 
 .footer__copyright {
-  font-family: "PTRootUI";
+  font-family: "PT Root UI";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -235,7 +235,7 @@
 }
 
 .footer__develop {
-  font-family: "PTRootUI";
+  font-family: "PT Root UI";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -268,7 +268,7 @@
 }
 
 .footer__design {
-  font-family: "PTRootUI";
+  font-family: "PT Root UI";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -306,7 +306,7 @@
 }
 
 .footer__develop-design-link {
-  font-family: "PTRootUI";
+  font-family: "PT Root UI";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
