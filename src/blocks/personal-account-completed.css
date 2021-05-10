@@ -1,0 +1,493 @@
+.personal-account {
+  background: #f3f2f2;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account {
+    padding-bottom: 90px;
+  }
+}
+
+.personal-account__change-city-and-exit {
+  display: none;
+}
+
+.personal-account__change-city {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__change-city-and-exit {
+    display: inline-block;
+    padding: 0;
+    padding-left: 1018px;
+  }
+
+  .personal-account__change-city {
+    display: inline-block;
+    font-family: "PT Root UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    border: none;
+    color: #a7a6a6;
+    padding: 0;
+    padding-left: 30px;
+  }
+}
+
+.personal-account__title-completed {
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #1a1a1a;
+  margin: auto;
+  width: 290px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__title-completed {
+    padding-top: 20px;
+    font-size: 23px;
+    line-height: 30px;
+    width: 334px;
+  }
+}
+.personal-account__events {
+  padding-left: 15px;
+  display: flex;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__events {
+    padding-left: 135px;
+    margin-top: 10px;
+  }
+}
+
+.personal-account__event {
+  min-width: 205px;
+  height: 108px;
+  background: #ffffff;
+  border-radius: 30px;
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.personal-account__number {
+  position: absolute;
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 37px;
+  line-height: 39px;
+  color: #000000;
+  top: 15px;
+  left: 15px;
+}
+
+.personal-account__month {
+  position: absolute;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  top: 15px;
+  padding-left: 75px;
+}
+
+.personal-account__month:nth-of-type(2) {
+  padding-left: 63px;
+}
+
+.personal-account__caption {
+  position: absolute;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: normal;
+  width: 175px;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  top: 59px;
+  left: 15px;
+}
+
+.personal-account__line {
+  display: flex;
+  width: 290px;
+  border-bottom: 0.5px solid #464646;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__line {
+    width: 1170px;
+  }
+}
+
+.personal-account__metting-completed {
+  display: flex;
+  justify-content: left;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__metting-completed {
+    margin-left: 120px;
+  }
+}
+
+.personal-account__button-completed {
+  padding: 0;
+  border: none;
+  height: 40px;
+  min-width: 40px;
+  background: #a7a6a6;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__button-completed {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.button-foto-completed {
+  background: #f3f2f2;
+}
+
+@media screen and (min-width: 1440px) {
+  .button-foto-completed {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.button-foto__title-completed {
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+
+  letter-spacing: 0.2px;
+  margin: 0;
+  padding-top: 11.5px;
+  padding-left: 15px;
+
+  color: #224cff;
+}
+
+@media screen and (min-width: 1440px) {
+  .button-foto__title-completed {
+    font-size: 15px;
+    line-height: 19px;
+    padding-top: 14.5px;
+  }
+}
+
+.personal-account__foto-completed {
+  padding: 0;
+  padding-left: 15px;
+  background-color: #f3f2f2;
+  padding-top: 20px;
+  border: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__foto-completed {
+    width: 470px;
+    height: 470px;
+    padding-top: 0;
+  }
+}
+
+.foto-completed {
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  .foto-completed {
+    width: 470px;
+    height: 470px;
+    border-radius: 50px;
+  }
+}
+
+.personal-account__detailed-description-completed {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 290px;
+  height: 474px;
+  margin: auto;
+  position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__detailed-description-completed {
+    width: 700px;
+    height: 470px;
+    margin-left: 0;
+  }
+}
+
+.personal-account__detailed-description-place {
+  position: absolute;
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 23px;
+  color: #000000;
+  top: 30px;
+  left: 15px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__detailed-description-place {
+    font-size: 23px;
+    line-height: 30px;
+    left: 30px;
+  }
+}
+
+.personal-account__detailed-description-date {
+  position: absolute;
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -2px;
+  color: #000000;
+  top: 52px;
+  left: 196px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__detailed-description-date {
+    top: 54px;
+    left: 591px;
+  }
+}
+
+.personal-account__detailed-description-month {
+  position: absolute;
+  top: 30px;
+  left: 194px;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__detailed-description-month {
+    font-size: 14px;
+    line-height: 19px;
+    left: 576px;
+  }
+}
+
+.personal-account__detailed-description-caption {
+  width: 260px;
+  height: 210px;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  overflow: hidden;
+  color: #000000;
+  margin: auto;
+  padding-top: 127px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__detailed-description-caption {
+    font-size: 18px;
+    line-height: 26px;
+    width: 520px;
+    height: 286px;
+    padding-top: 90px;
+    margin-left: 30px;
+  }
+}
+
+.personal-account__detailed-time {
+  display: flex;
+  width: 241px;
+  height: 23px;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__detailed-time {
+    margin-top: 38px;
+    padding-left: 30px;
+  }
+}
+
+.personal-account__detailed-text {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #8cdd94;
+  padding-top: 3px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__detailed-text {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+.personal-account__curator {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__curator {
+    position: absolute;
+    padding: 0;
+    top: 418px;
+    left: 262px;
+  }
+}
+
+.personal-account__curator-text {
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #a7a6a6;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__curator-text {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+
+.personal-account__curator-text-active {
+  color: black;
+}
+
+.personal-account__curator-img {
+  width: 10px;
+  height: 5px;
+  padding-top: 7px;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__curator-img {
+    display: none;
+  }
+}
+
+.personal-account__edit {
+  position: absolute;
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #a7a6a6;
+  top: 427px;
+  left: 15px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__edit {
+    font-size: 15px;
+    line-height: 19px;
+    top: 418px;
+    left: 475px;
+  }
+}
+
+.personal-account__deleted {
+  position: absolute;
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #a7a6a6;
+  top: 427px;
+  left: 227px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__deleted {
+    font-size: 15px;
+    line-height: 19px;
+    top: 418px;
+    left: 616px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__block {
+    display: flex;
+    margin-left: 120px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+}
+
+.personal-account__block-active {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__block-active {
+    display: flex;
+  }
+}
+
+.smile {
+  width: 23px;
+  height: 23px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  .smile {
+    width: 26px;
+    height: 26px;
+    padding-right: 15px;
+    margin: 0;
+  }
+}
