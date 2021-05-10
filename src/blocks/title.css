@@ -1,0 +1,30 @@
+.title {
+  font-family: 'Proto Grotesk Web Light', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  color: #000
+}
+
+.title_size_big {
+
+}
+
+.title_size_medium {
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.title_size_small {
+
+}
+
+
+@media screen and (max-width: 1300px) {
+
+  .title_size_medium {
+    font-size: 21px;
+    line-height: 27px;
+  }
+}
+
