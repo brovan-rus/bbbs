@@ -1,0 +1,456 @@
+.personal-account {
+  background: #f3f2f2;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account-completed {
+    padding-bottom: 120px;
+  }
+}
+
+.personal-account__change-city-and-exit {
+  display: none;
+}
+
+.personal-account__change-city {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__change-city-and-exit {
+    display: inline-block;
+    padding: 0;
+    padding-left: 1022px;
+  }
+
+  .personal-account__change-city {
+    display: inline-block;
+    font-family: "PT Root UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    border: none;
+    color: #a7a6a6;
+    padding: 0;
+    padding-left: 30px;
+  }
+}
+
+.personal-account__title {
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #1a1a1a;
+  margin: auto;
+  width: 290px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #464646;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__title {
+    font-size: 23px;
+    line-height: 30px;
+    width: 1170px;
+    text-align: center;
+
+    padding-top: 30px;
+  }
+}
+
+.personal-account__subtitle {
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #1a1a1a;
+  margin: auto;
+  width: 290px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__subtitle {
+    padding-top: 50px;
+    font-size: 23px;
+    line-height: 30px;
+    width: 770px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__forms {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
+
+.personal-account__forms-completed {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__forms-completed {
+    display: flex;
+  }
+}
+
+.personal-account__foto {
+  width: 290px;
+  height: 291px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin: auto;
+  padding-top: 90px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__foto {
+    width: 470px;
+    height: 472px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+}
+
+.personal-account__button {
+  padding: 0;
+  border: none;
+  height: 80px;
+  width: 80px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__button {
+    height: 100px;
+    width: 100px;
+    margin-top: 168px;
+  }
+}
+
+.button-foto {
+  background: #ffffff;
+}
+
+@media screen and (min-width: 1440px) {
+  .button-foto {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.button-foto__title {
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #a7a6a6;
+  width: 93px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+@media screen and (min-width: 1440px) {
+  .button-foto__title {
+    font-size: 15px;
+    line-height: 19px;
+    width: 116px;
+  }
+}
+
+.personal-account__form {
+  width: 290px;
+  height: 404px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__form {
+    width: 700px;
+    height: 472px;
+    margin: 0;
+    margin-top: 30px;
+  }
+}
+
+.personal-account__place {
+  background: #f3f2f2;
+  border-radius: 30px;
+  border: none;
+  min-width: 260px;
+  height: 40px;
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  margin-top: 30px;
+  color: #a7a6a6;
+  text-align: start;
+  padding: 0;
+}
+.personal-account__place::placeholder {
+  padding-left: 20px;
+}
+
+.personal-account__place-completed::placeholder {
+  color: #000000;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__place {
+    min-width: 370px;
+    height: 48px;
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+
+.personal-account__date {
+  background: #f3f2f2;
+  border-radius: 30px;
+  border: none;
+  width: 260px;
+  height: 40px;
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  margin-top: 10px;
+  color: #a7a6a6;
+  text-align: start;
+  padding: 0;
+}
+
+.personal-account__date::placeholder {
+  padding-left: 20px;
+}
+
+.personal-account__date-completed::placeholder {
+  color: #000000;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__date {
+    width: 240px;
+    height: 48px;
+    margin-left: 30px;
+  }
+}
+
+.personal-account__description {
+  background: #f3f2f2;
+  border-radius: 30px;
+  margin: auto;
+  width: 260px;
+  height: 120px;
+  padding-top: 10px;
+  color: #a7a6a6;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__description {
+    width: 640px;
+    height: 286px;
+    margin-top: 20px;
+  }
+}
+
+.personal-account__description-style {
+  width: 220px;
+  height: 51px;
+  border: none;
+  background: #f3f2f2;
+  color: #a7a6a6;
+  resize: none;
+  font-family: "Proto Grotesk Web Light";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+}
+
+.personal-account__description-style-completed {
+  color: #000000;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__description-style {
+    font-size: 15px;
+    line-height: 19px;
+    width: 600px;
+    height: 38px;
+  }
+}
+
+.personal-account__time {
+  display: flex;
+  width: 241px;
+  height: 34px;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__time {
+    margin-top: 30px;
+    padding-left: 30px;
+  }
+}
+
+.time-smile {
+  border: none;
+  background: #ffffff;
+  padding: 0;
+}
+
+.smile-completed {
+  background: #8cdd94;
+}
+
+.smile {
+  width: 23px;
+  height: 23px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  .smile {
+    width: 26px;
+
+    height: 26px;
+    padding: 0;
+    margin-right: 15px;
+  }
+}
+
+.time-text {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #a7a6a6;
+  margin: 0;
+  width: 137px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.time-text-completed {
+  color: #8cdd94;
+}
+
+@media screen and (min-width: 1440px) {
+  .time-text {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 19px;
+    width: 192px;
+    height: 19px;
+    white-space: nowrap;
+    padding-top: 3.5px;
+    padding-left: 0;
+  }
+}
+
+.personal-account-buttons {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account-buttons {
+    position: absolute;
+    padding: 0;
+    bottom: 20px;
+  }
+}
+
+.personal-account__append {
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  background-color: #ffffff;
+  color: #a7a6a6;
+  border: 1px solid #a7a6a6;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 88px;
+  height: 40px;
+  margin-left: 15px;
+  padding: 0;
+}
+@media screen and (min-width: 1440px) {
+  .personal-account__append {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 19px;
+    width: 112px;
+    height: 48px;
+    top: -40px;
+    left: 558px;
+  }
+}
+
+.personal-account__append-completed {
+  border: 1px solid #224cff;
+  color: #224cff;
+}
+
+.personal-account__remove {
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  background-color: #ffffff;
+  color: #a7a6a6;
+  border: none;
+  padding: 0;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 1440px) {
+  .personal-account__remove {
+    position: absolute;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 0;
+    margin: 0;
+    top: -26px;
+    left: 478px;
+  }
+}
