@@ -1,0 +1,18 @@
+.question {
+  background-color: #fff;
+  padding: 49px 498px 49px 50px;
+  justify-items: start;
+}
+
+@media screen and (max-width: 1919px) {
+  .question {
+    padding-right: calc(14 * 100vw /15 - 1294px);
+  }
+
+}
+
+@media screen and (max-width: 1439px) {
+  .question {
+    padding: 30px 15px;
+  }
+}

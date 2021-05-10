@@ -16,3 +16,21 @@
     justify-content: start;
   }
 }
+
+.calendar__card {
+  max-width: 570px;
+}
+
+@media screen and (min-width: 920px) {
+  .calendar__card {
+    padding: 30px 10px;
+    max-width: calc(100% / 2 - 20px);
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  .calendar__card {
+    padding: 30px;
+    max-width: calc(100% / 3 - 20px);
+  }
+}

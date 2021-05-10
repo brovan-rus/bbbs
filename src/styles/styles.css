@@ -18,12 +18,22 @@
 @import url(../blocks/widget.css);
 @import url(../blocks/tag.css);
 @import url(../blocks/films-list.css);
-@import url(../blocks/film-card.cssgi);
+
+@import url(../blocks/film-card.css);
+@import url(../blocks/video-section.css);
+@import url(../blocks/social__media.css);
+@import url(../blocks/questions.css);
+@import url(../blocks/question.css);
+@import url(../blocks/where-to-go.css);
+
+
+/* Стили из ветки Андрея */
+@import url(../blocks/personal-account.css);
+@import url(../blocks/personal-account-completed.css);
+
 
 /* должен быть внизу */
 @import url(../blocks/page.css);
 @import url(../blocks/bg.css);
 
-/* Стили из ветки Андрея */
-@import url(../blocks/personal-account.css);
-@import url(../blocks/personal-account-completed.css);
+

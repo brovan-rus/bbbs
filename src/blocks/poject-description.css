@@ -5,11 +5,6 @@
   flex-direction: column;
 }
 
-.project-description__logo-link {
-  margin: 35px 0 0 30px;
-}
-
-
 .project-description__logo-image {
   width: calc(62px + 11 * 100vw / 112);
   height: calc(11.7px + 100vw / 56);
