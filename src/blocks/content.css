@@ -19,6 +19,10 @@
   }
 }
 
+.content_place_about-project {
+  row-gap: 80px;
+}
+
 .content__link {
   text-decoration: none;
 }

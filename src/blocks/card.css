@@ -70,13 +70,7 @@
 }
 
 .card__title {
-  text-align: center;
   margin: 0 0 5px 0;
-  font-family: 'Proto Grotesk Web Light', 'Arial', sans-serif;
-  font-weight: 300;
-  font-size: 23px;
-  line-height: 30px;
-  color: #000000;
 }
 
 .card__title_place_film-card {
@@ -171,10 +165,6 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .card__title {
-    font-size: 19px;
-    line-height: 23px;
-  }
   .card__subtitle {
     font-size: 12px;
     line-height: 17px;
@@ -192,7 +182,6 @@
     padding: 17px 15px 15px 15px;
 
   }
-
 
   .card__subtitle {
     margin-bottom: 62px;
@@ -336,12 +325,6 @@
 }
 
 .card__title_content_paper-abstract {
-  font-family: 'Proto Grotesk Web Light', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 44px;
-  line-height: 50px;
-  text-align: center;
   color: #1A1A1A;
   margin: 0 0 21px 0;
   min-height: 300px;
@@ -375,8 +358,6 @@
 
 @media screen and (max-width: 1439px){
   .card__title_content_paper-abstract {
-    font-size: 19px;
-    line-height: 23px;
     margin: 0 0 10px 0;
     min-height: 240px;
   }
