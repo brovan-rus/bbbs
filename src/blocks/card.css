@@ -10,6 +10,7 @@
   justify-items: center;
   width: 100%;
   scrollbar-width: thin;
+  margin: 0 auto;
 }
 
 .card__container {
@@ -46,8 +47,7 @@
   margin: 30px 7px 30px 0;
 }
 
-.card__scroll::-webkit-scrollbar-track-piece {
-}
+.card__scroll::-webkit-scrollbar-track-piece {}
 
 .card__scroll::-webkit-scrollbar-thumb {
   background-color: #E8E6E6;
@@ -84,7 +84,6 @@
 .card__title_place_film-card {
   min-height: 60px;
 }
-
 
 .card__image {
   width: 100%;
@@ -125,13 +124,13 @@
   text-decoration: none;
 }
 
-.card__link:visited{
+.card__link:visited {
   color: #000;
 }
 
 .card__link_content_external-link {
   color: #224CFF;
-  font-family: 'Proto Grotesk Web Light', 'Arial', sans-serif ;
+  font-family: 'Proto Grotesk Web Light', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -155,6 +154,7 @@
 
 .card__scroll {
   overflow: scroll;
+  height: 100%;
 }
 
 @media screen and (max-width: 1440px) {
@@ -172,34 +172,25 @@
     font-size: 12px;
     line-height: 17px;
   }
-
-
 }
 
 @media screen and (max-width: 1024px) {
   .card {
     padding: 17px 15px 15px 15px;
-
   }
-
-
   .card__subtitle {
     margin-bottom: 62px;
   }
-
   .card__subtitle_place_film-card {
     min-height: 46px;
     margin-bottom: 5px;
   }
-
   .card__image {
     height: 346px;
   }
-
   .card__image_place_main {
     background-image: url("../images/mentor-choise-girls-hor.jpg");
   }
-
   .card__link {
     font-size: 12px;
     line-height: 17px;
@@ -210,15 +201,12 @@
   .card {
     width: 290px;
   }
-
   .card__subtitle {
     margin-bottom: 39px;
   }
-
   .card__subtitle_place_film-card {
     margin-bottom: 5px;
   }
-
   .card__image {
     height: auto;
     background-image: url("../images/mentor-choise-girls-mob.jpg");
@@ -233,7 +221,6 @@
   overflow: scroll;
   overflow-x: auto;
   max-height: 629px;
-
 }
 
 .card__text_content_article-heading {
@@ -263,29 +250,26 @@
   margin: 0;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
   .card__text_content_article-heading {
     margin-bottom: 105px;
   }
 }
 
-
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) {
   .card_content_article {
     padding: 30px 10px 10px 30px;
   }
 }
 
-@media screen and (max-width: 1439px){
+@media screen and (max-width: 1439px) {
   .card_content_article {
     padding-top: 30px;
     height: 188px;
   }
-
   .card__text {
     padding: 0 15px;
   }
-
   .card__text_content_article {
     font-size: 15px;
     line-height: 21px;
@@ -316,13 +300,12 @@
 .card_content_social-media {
   display: flex;
   border-radius: 30px;
-  overflow:hidden;
+  overflow: hidden;
   padding: 0;
   justify-content: flex-start;
 }
 
-
-.card_content_paper-abstract{
+.card_content_paper-abstract {
   padding: 120px 400px 30px 400px;
 }
 
@@ -351,37 +334,33 @@
 
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
   .card_content_paper-abstract {
-    padding: calc(45 * 100vw / 208 - 191.5px)  calc(15 * 100vw / 104 - 107.7px) calc(105 * 100vw / 416 - 243.5px);
+    padding: calc(45 * 100vw / 208 - 191.5px) calc(15 * 100vw / 104 - 107.7px) calc(105 * 100vw / 416 - 243.5px);
   }
   .card__subtitle_place_film-card {
     min-height: 40px;
     margin-bottom: 17px;
   }
-
-  .card__link_content_external-link{
+  .card__link_content_external-link {
     font-size: 15px;
     line-height: 19px;
   }
 }
 
-@media screen and (max-width: 1439px){
+@media screen and (max-width: 1439px) {
   .card__title_content_paper-abstract {
     font-size: 19px;
     line-height: 23px;
     margin: 0 0 10px 0;
     min-height: 240px;
   }
-
 }
 
 @media screen and (max-width: 1024px) {
   .card_content_paper-abstract {
     padding: 30px 15px 15px 15px;
   }
-
-  .card__link_content_external-link{
+  .card__link_content_external-link {
     font-size: 12px;
     line-height: 17px;
   }
 }
-
