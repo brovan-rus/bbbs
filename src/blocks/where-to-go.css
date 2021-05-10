@@ -31,46 +31,37 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1919px){
-  .where-to-go__cards {
-    grid-template-columns: repeat(3,  370px);
-  }
+@media screen and (max-width: 1919px) {
   .where-to-go__card-subtitle {
     margin: 0 0 50px 0;
   }
-
-
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) {
   .where-to-go__cards {
-    grid-template-columns: repeat(2, 370px);
+    grid-template-columns: repeat(3, calc(100% / 3 - 20px));
+  }
+}
 
+@media screen and (max-width: 1024px) {
+  .card__text_content_where-to-go-article-heading {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .where-to-go__cards {
+    grid-template-columns: repeat(2, calc(100% / 2 - 20px));
+  }
+  .where-to-go__card-heading {
+    height: 176px;
   }
   .where-to-go__card:nth-child(3) {
     display: none;
   }
 }
 
-@media screen and (max-width: 1024px){
-  .card__text_content_where-to-go-article-heading {
-    margin-bottom: 5px;
-  }
-
-}
-
-
-@media screen and (max-width: 770px){
-  .where-to-go__cards {
-    grid-template-columns: repeat(2, 290px);
-  }
-  .where-to-go__card-heading {
-    height: 176px;
-  }
-
-}
-
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
   .where-to-go__cards {
     grid-template-columns: 290px;
   }
