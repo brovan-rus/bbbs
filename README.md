@@ -5,5 +5,3 @@
 
 * Список всех страниц: src/index.html
 * Использована БЭМ методология
-
-[Ссылка на github]( "https://github.com/vadim-mg/bbbs")
